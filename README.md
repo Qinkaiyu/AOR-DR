@@ -4,8 +4,6 @@ Data can be obtained from [here](https://github.com/chehx/DGDR/blob/main/GDRBenc
 
 Your dataset should be organized as: 
 
-Adjust target_DATA(need change)_train according to different targets of your DG test.
-
 ```
 .
 ├── images
