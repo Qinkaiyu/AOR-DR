@@ -587,5 +587,6 @@ def test():
     print('f1',f1)
     print('k',k)
 if __name__ == '__main__':
-    # main()
-    test()
+    main()
+    #test()
+
