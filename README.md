@@ -39,7 +39,7 @@ Your dataset should be organized as:
 
 ```
 ### train
-code will upload after accept.
+python main.py
 ### test
 ``` bash
 python test.py
