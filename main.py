@@ -310,7 +310,7 @@ def main():
     feature_extractor = ViTFeatureExtractor(vit_base_patch16_224)
     # vit_large_patch16 = prepare_model(chkpt_dir=r'./RETFound_cfp_weights.pth')
     # feature_extractor = ViTFeatureExtractor(vit_large_patch16)
-    feature_extractor.load_state_dict(torch.load('./vit-b_messidor_position.pth'))
+    # feature_extractor.load_state_dict(torch.load('./vit-b_messidor_position.pth'))
     feature_extractor.to(device = 'cuda')
     for param in feature_extractor.parameters():
         param.requires_grad = True
@@ -589,4 +589,5 @@ def test():
 if __name__ == '__main__':
     main()
     #test()
+
 
